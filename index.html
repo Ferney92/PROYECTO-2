@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <header>
+    <h1>Mi portafolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">sobre mi</a></li>
+            <li><a href="#portfolio">portafolio</a></li>
+            <li><a href="#contact">contacto</a></li>
+        </ul>
+    </nav>
+
+  </header>
+  <div class="wrapper">
+    <div class="slider" id="slider">
+      <ul class="slides">
+        <li class="slide" id="slide1">
+          <a href="#">
+            <p class="caption">Texto llamativo</p>
+            <img src="photo 1.png" alt="photo 1">
+          </a>
+        </li>
+        <li class="slide" id="slide2">
+          <a href="#">
+            <p class="caption">Texto llamativo</p>
+            <img src="photo 2.png" alt="photo 2">
+          </a>
+        </li>
+        <li class="slide" id="slide3">
+          <a href="#">
+            <p class="caption">Texto llamativo</p>
+            <img src="photo 3.png" alt="photo 3">
+          </a>
+        </li>
+        <li class="slide" id="slide4">
+          <a href="#">
+            <p class="caption">Texto llamativo</p>
+            <img src="photo 4.png" alt="photo 4">
+          </a>
+        </li>
+        <li class="slide" id="slide5">
+          <a href="#">
+             <p class="caption">Texto llamativo</p>
+             <img src="photo 5.png" alt="photo 5">
+          </a>
+        </li>
+        <li class="slide">
+          <a href="#">
+            <p class="caption">Texto llamativo</p>
+            <img src="photo 1.png" alt="photo 1">
+          </a>
+        </li>
+      </ul>
+      <ul class="slider-controler">
+        <li><a href="#slide1">&bullet;</a></li>
+        <li><a href="#slide2">&bullet;</a></li>
+        <li><a href="#slide3">&bullet;</a></li>
+        <li><a href="#slide4">&bullet;</a></li>
+        <li><a href="#slide5">&bullet;</a></li>
+      </ul>
+    </div>
+  </div>
+  <section id="about">
+    <h2>Sobre mi</h2>
+    <p>Hola, soy Ferney Sanabria, un desarrollador web apasionado por crear soluciones innovadoras,en diseñar, crear y mantener sitios web, proporcionando en el proceso un portal online coherente y fácil de usar para los clientes, compañeros de trabajo y otras partes implicadas. Incorporando el contenido, imágenes, gráficos, vídeos y otras utilidades para crear sitios atractivos con los que los usuarios querrán interactuar. </p>
+  </section>
+
+  <section id="portfolio">
+    <h2>portafolio</h2>
+    <div class="gallery">
+        <div class="project">
+            <img src="redes.png" alt="proyecto2">
+            <p>-Lider del equipo de trabajo responsable de la planificacion, ejecucion, monitoreo y control sobre los entregables de las actividades realizadas por tecnicos y coordinadores de la empresa</p>
+            <p>-Definir el alcance, los objetivos, entregables; establecer y monitorear el presupuesto, los plazos y los riesgos del proyecto.</p>
+            <p>-Planificar y coordinar la elaboracion de entregables, sobre las actividades realizadas por los tecnicos y coordinadores de las diferentes zonas a nivel nacional</p>
+
+            </div>
+            <div class="project">
+                <img src="plano.png" alt="proyecto 3">
+                <p>-Levantamientos arquitectonicos, cantidaes de obra, inspeccion de materiales, renderizados por medio del software sketchup 3D</p>
+
+            </div>
+            <div class="project">
+              <img src="postensado.png" alt="proyecto 4">
+              <p>-Oficia de obra responsable en la ejecucion de actividades de postensado en proyectos de construccion el cual me desempeñaba en el buen manejo de personal, interpretacion de planos, calibracion de postensado con sus libras de resistencia acorde al proyecto</p>
+            </div>
+            <div class="project">
+              <img src="hdr.png" alt="proyecto 5">
+              <p>-Elaboración de estudios, proyectos y memorias valoradas de ámbito hidráulico.</p>
+              <p>-Elaboración de informes de análisis y diagnóstico de infraestructuras hidráulicas, aportando las soluciones técnicas óptimas que permitan mejorar la eficiencia en la prestación de servicios, y en coordinación con las áreas de gestión técnica y tratamiento de aguas.</p>
+              
+            </div>
+  </section>
+
+  <section id="contact">
+    <h2>contacto</h2>
+    <form action="/submit" method="post">
+        <label for="name">nombre:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">correo electronico:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">mensaje:</label>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="enviar">
+    </form>
+  </section>
+    
+</body>
+</html>
